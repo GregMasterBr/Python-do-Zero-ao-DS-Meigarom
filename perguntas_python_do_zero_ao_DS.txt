@@ -1,0 +1,249 @@
+﻿Aula 1
+Solicitações do CEO
+
+1. Quantas casas estão disponíveis para compra?
+
+2. Quantos atributos as casas possuem?
+
+3. Quais são os atributos das casas?
+
+4. Qual a casa mais cara ( casa com o maior valor de venda )?
+
+5. Qual a casa com o maior número de quartos?
+
+6. Qual a soma total de quartos do conjunto de dados?
+
+7. Quantas casas possuem 2 banheiros?
+
+8. Qual o preço médio de todas as casas no conjunto de dados?
+
+9. Qual o preço médio de casas com 2 banheiros?
+
+10. Qual o preço mínimo entre as casas com 3 quartos?
+
+11. Quantas casas possuem mais de 300 metros quadrados na sala de estar?
+
+12. Quantas casas tem mais de 2 andares?
+
+13. Quantas casas tem vista para o mar?
+
+14. Das casas com vista para o mar, quantas tem 3 quartos?
+
+15. Das casas com mais de 300 metros quadrados de sala de estar, quantas tem mais de 2 banheiros?
+
+
+
+
+
+
+
+
+
+
+
+
+Aula 2
+Solicitações CEO
+
+1. Qual a data do imóvel mais antigo no portfólio?
+
+ 2. Quantos imóveis possuem o número máximo de andares (3.5)?
+
+ 3. Criar uma classificação para os imóveis, separando-os em baixo e alto padrã o de acordo com o preço
+#   acima de 540.000 = alto padrão
+#   Abaixo de 540.00 = baixo padrão
+
+ 4. Fazer um relatório ordenado pelo preço e contendo as seguintes informações:
+- Id do imóvel
+- Data que o imóvel ficou disponível para compra
+- O número de quartos
+- O tamanho total do terreno
+- O preço
+- A classificação do imóvel (alto e baixo padrão)
+
+ 5. Criar um mapa indicando onde as casas estão localizadas geograficamente
+
+
+===========================================================
+
+ Perguntas do CEO 
+
+1. Crie um anova coluna chamada: "house_age" ==
+ - Se o valor da coluna "date" for maior que 2014-01-01 => 'new_house
+ - Se o valor da coluna "date" for menor que 2014-01-01 => 'old_house
+
+ 2. Crie uma nova coluna chamada: "dormitory_type"
+ - Se o valor da coluna "bedrooms" for igual à 1 => 'studio'
+ - Se o valor da coluna "bedrooms" for igual à 2 => 'apartament'
+
+ 3. Crie uma nova coluna chamada: "condition_type"
+ - Se o valor da coluna "condition" for menor ou igual à 2 => 'bad'
+ - Se o valor da coluna "condition" for igual à 3 ou 4 => 'regular'
+ - Se o valor da coluna "condition" for igual à 5 => 'good'
+
+ 4. Modifique o TIPO da coluna "condition" para STRING
+
+ 5. Delete as colunas "sqft_living15" e "sqft_lot15"
+
+ 6. Modifique o TIPO da coluna "yr_build" para DATE
+
+ 7. Modifique o TIPO da coluna "yr_renovated" para DATE
+
+ 8. Qual a data mais antiga de construção de um imóvel?
+
+ 9. Qual a data mais antiga de renovação de um imóvel?
+
+ 10. Quantos imóveis tem 2 andares?
+
+ 11. Quantos imóveis estão com a condição igual à "regular"?
+
+ 12. Quantos imóveis estão com a condição igual a "bad" e possuem "vista para água"?
+
+ 13. Quantos imóveis estão com a condição igual a "good" e são "new_house"?
+
+14. Qual o valor do imóvel mais caro do tipo "studio"?
+
+ 15. Quantos imóveis do tipo "apartament" foram reformados em 2015?
+
+ 16. Qual o maior número de quartos que um imóvel do tipo "house" possui?
+
+ 17. Quandos imóveis "new_house" foram reformados no ano de 2014?
+
+ 18. Selecione as colunas: "id = 0", "date = 1", "price = 2", "floors" = 7, "zipcode = 16" pelo método:
+ - Direto pelo nome das colunas
+
+ - Pelos índices
+
+ - Pelos índices das linhas e o nome das colunas
+
+ - Índices booleanos
+
+ 19. Salve um arquivo .csv com somente as colunas do item 10
+
+ 20. Modifique a cor dos pontos no mapa de "pink" para "verde-escuro"
+
+
+
+
+
+
+
+
+
+Aula 3
+Respondendo as questões do CEO
+
+1. Qual o número de imoveis por ano de construção?
+
+2. Qual o menor número de quartos por ano de construção de imóveis?
+
+3. Qual o preço de compra mais alto por cada número de quartos?
+
+4. Qual a soma de todos os preços de compra por número de quartos?
+
+5. Qual a soma de todos os preços de compra por número de quartos e banheiros?
+
+6.  Qual o tamanho médio de salas dos imóveis por ano de construção?
+
+7. Qual o tamanho mediano das salas dos imóveis por ano de construção?
+
+8. Qual o desvio padrão do tamanho das salas dos imóveis por ano de construção?
+
+9. Como é o crescimento total de preços de compras dos imoveis por ano, por dia e pela semana do ano?
+
+10. Faça um mapa que identifique as casas com maior preço
+
+
+
+Perguntas do CEO
+
+1. Crie uma nova coluna chamada 'dormitory_type'
+
+* se o valor da coluna 'berdrooms' for igual a 1 -> studio 
+* se o valor da coluna 'berdrooms' for igual a 2 -> apartament 
+* se o valor da coluna 'berdrooms' > 2 -> house
+
+2. Faça um gráfico de barras que represente a soma dos preços pelo número de quartos
+
+3. Faça um gráfico de linhas que represente a média dos preços pelo ano da construção dos imóveis
+
+4. Faça um gráfico de barras que represente a média dos preços pelo tipo dos dormitórios
+
+5. Faça um gráfico de linha que mostre a evolução da média dos preços pelo ano da reforma dos imíveis, a partir do ano de 1930
+
+6. Faça uma tabela que mostre a média dos preços por ano de construção e tipo de dormitório dos imóveis
+
+7. Crie um Dashboard com os gráficos das questões 02,03,04 (1 linha e 2 colunas)
+
+8. Crie um Dashboard com os gráficos das questões 02 e 04 (2 colunas)
+
+9. Crie um Dashboard com os gráficos das questões 03 e 5 (2 linhas)
+
+10. Faça um gráfico com o tamanho dos pontos sendo igual ao tamanho da sala de estar 
+
+
+
+
+
+Aula 04: Estruturas de controle
+
+Novas perguntas de negócio
+
+1. Qual a quantidade de imóveis por nível?
+ - Nivel 0: Preço entre R$ 0.00 e R$ 321.950
+ - Nivel 1: Preço entre R$ 321.950 e R$ 450.000
+ - Nivel 2: Preço entre R$ 450.000 e R$ 645.000
+ - Nivel 3: Preço entre R$ Acima de R$ 645.000
+
+2. Adicione as seguintes informações ao imóvel:
+ - Nome da Rua
+ - Número do imóvel
+ - O nome do Bairro
+ - O nome da cidade
+ - O nome do estado
+
+3. Adicione o nível do imóvel no mapa como uma cor
+
+4. Adicione o preço do imóvel como o tamanho do ponto no mapa
+
+5. Adicione opções de filtros para fazer as próprias análises
+  - Eu quero escolher visualizar imóveis com vista para água ou não
+  - Eu quero escolher visualizar imóveis até um certo valor de preço
+  
+6. Adicionar opções de filtros no últimos dashboard enviado:
+   - Visualizar somente valores a partir de uma data disponível para compra
+
+
+Exercício:
+
+1. Qual a quantidade de imóveis por nível?
+ - Nivel 0: Preço entre R$ 0.00 e R$ 321.950
+ - Nivel 1: Preço entre R$ 321.950 e R$ 450.000
+ - Nivel 2: Preço entre R$ 450.000 e R$ 645.000
+ - Nivel 3: Preço entre R$ Acima de R$ 645.000
+
+2. Qual a média do tamanho da sala de estar dos imíveis por "size"?
+ - Size 0: Tamanho entre 0 e 1427 sqft
+ - Size 1: Tamanho entre 1427 e 1910 sqft
+ - Size 2: Tamanho entre 1910 e 2550 sqft
+ - Size 3: Tamanho acima de 2550 sqtf
+
+3. Adicione as seguintes informações ao conjunto de dados original?
+ - Place ID:Identificação da localização
+ - OSM type: Open Street Map Type
+ - Country: Nome do País
+ - Country CODE: Código do País
+
+4. Adicione os seguintes filtros no mapa:
+ - Tamanho mínimo da área da sala de estar
+ - Número mínino de banheiros
+ - Valor máximo do preço
+ - Tamanho máximo da área do porão
+ - Filtro das condições do imóvel
+ - Filtro por ano de construção
+
+5. Adicione os seguintes filtros no Dashboard:
+
+ - Filtro por data disponível para compra
+ - Filtro por ano de renovação
+ - Filtro se possui vista para água ou não.

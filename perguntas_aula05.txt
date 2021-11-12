@@ -1,0 +1,15 @@
+Aula 5 - Funções e Organização de Código
+
+Solicitações do CEO
+
+1. CEO Não conseguiu usar o mapa que foi enviado por email
+
+2. CEO precisa acessar o mapa e o dashboard do celular próprio
+
+
+Novas perguntas do CEO
+3. Organizar o código da aula 4 em funções
+
+4. Refazer o gráfico e o dashboard com o Streamlit
+
+5. Testar novos tipos de filtros
